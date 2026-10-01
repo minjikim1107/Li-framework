@@ -1,6 +1,7 @@
-# Lithium-recovery TEA reproducibility package
+<img width="2362" height="723" alt="image" src="https://github.com/user-attachments/assets/8d07f31d-cf45-42be-8a82-6e3c03215dab" /># Lithium-recovery TEA reproducibility package
 
 This package contains the economic calculation, Monte Carlo analysis, and tabular sensitivity analyses used for the manuscript. It does not contain Aspen models, Aspen extraction scripts, LCA calculations, or figure-generation code.
+<img width="2362" height="723" alt="image" src="https://github.com/user-attachments/assets/d39b8dbd-9545-44e4-9bda-715a3b9404eb" />
 
 ## Environment
 
