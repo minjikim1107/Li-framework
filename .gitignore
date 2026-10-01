@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+TEA/TEA_code/MC/MC_draws.csv
+TEA/TEA_code/MC/MC_result.xlsx
+TEA/TEA_code/scenario_results/
+TEA/TEA_code/sensitivity_results/
+TEA/TEA_code/capacity_analysis/capacity_analysis.xlsx
+TEA/TEA_code/capacity_analysis/capacity_analysis.csv
+TEA/TEA_code/Byproduct_analysis/Byproduct_credit_robustness.xlsx
+TEA/TEA_code/Byproduct_analysis/Byproduct_credit_robustness.csv
+TEA/TEA_code/labor_cost_comparison/labor_cost_comparison.xlsx
+TEA/TEA_code/labor_cost_comparison/labor_cost_comparison.csv
