@@ -1,6 +1,6 @@
 <img width="2362" height="723" alt="image" src="https://github.com/user-attachments/assets/8d07f31d-cf45-42be-8a82-6e3c03215dab" /># Lithium-recovery TEA reproducibility package
 
-# Lithium-recovery TEA reproducibility package
+# Lithium-recovery framework
 
 This repository provides the Python source code and fixed process-simulation output workbooks used for pathway-level techno-economic analysis (TEA), Monte Carlo uncertainty analysis, sensitivity analysis, capacity analysis, freshwater/by-product credit analysis, labor-cost comparison, and future electricity/maturity scenarios.
 
