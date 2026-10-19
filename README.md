@@ -110,9 +110,4 @@ The analyses expect process-simulation outputs in the same workbook structure as
 
 The four location identifiers currently supported are `Atacama`, `Zabuye`, `Uyuni`, and `GSL`. Adding a new lake or country is not a data-only operation: its location-specific economic assumptions and the analysis location lists must also be configured and validated in the code.
 
-## Reproducibility notes
 
-- `TEA/TEA_code/Economic.py`, `heat_price_mapping.py`, and `project_paths.py` provide shared economic calculations, energy-price mappings, and paths; executable analyses import them.
-- For MVR pathways, only the residual external heater duty (`MVR_heat`) is costed as auxiliary electric heating. `E_heater = Q_external / (3.6 × 0.99)` kWh and `Heat_OPEX = E_heater × electricity price`. Future electricity-mix cases derive heat price from the corresponding electricity price. MED steam pricing and the existing heat-emissions factor (`0.0000623 t CO₂/MJ-heat`) are unchanged.
-- The fixed Monte Carlo seed and draw count are defined in `TEA/TEA_code/MC.py`. The generated Monte Carlo outputs are not bundled; running the script recreates them.
-- Internal identifiers such as `RESIN` and `mult_price_RESIN` are retained to preserve the calculation/data interface. Manuscript-facing sensitivity labels use “sorbent.”
